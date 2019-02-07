@@ -1,5 +1,5 @@
 // OGÓLNA FUNKCJA
-var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
+var baseUrl = 'http://cors-anywhere.herokuapp.com/https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
    'X-Client-Id': '3811',
    'X-Auth-Token': 'd920201cc1a357f9462a0905844b39c2'

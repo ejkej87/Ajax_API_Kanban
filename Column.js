@@ -9,11 +9,6 @@ function Column(id, name) {
    });
 
    this.element.querySelector('.column').addEventListener('click', function (event) {
-      if (event.target.classList.contains('add-card')) {
-         var cardName = prompt("Enter the name of the card");
-         event.preventDefault();
-         self.addCard(new Card(cardName));
-      }
 
       if (event.target.classList.contains('add-card')) {
          var cardName = prompt("Enter the name of the card");
