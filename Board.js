@@ -34,6 +34,3 @@ function initSortable(id) {
     	sort: true
   	});
 }
-
-//var column = new Column(response.id, columnName);
-//board.createColumn(column);
