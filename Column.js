@@ -17,6 +17,7 @@ function Column(id, name) {
 
          var data = new FormData();
          data.append('name', cardName);
+         data.append('bootcamp_kanban_column_id', self.id);
 
          fetch(baseUrl + '/card', {
                method: 'POST',
